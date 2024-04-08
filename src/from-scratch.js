@@ -1,25 +1,25 @@
-const addToFrontOrBack = () => {
+const addToFrontOrBack = (arr, value, isFront) => {
 };
 
-const reverseString = () => {
+const reverseString = (string) => {
 };
 
-const newArrayFullOf = () => {
+const newArrayFullOf = (value, numOfValue) => {
 };
 
-const insertIntoMiddle = () => {
+const insertIntoMiddle = (arr, value) => {
 };
 
-const deleteFromMiddle = () => {
+const deleteFromMiddle = (arr) => {
 };
 
-const isRightIndex = () => {
+const isRightIndex = (arr, value, index) => {
 };
 
-const roundAllNumsDown = () => {
+const roundAllNumsDown = (arr,) => {
 };
 
-const getAllYCoordinates = () => {
+const getAllYCoordinates = (arrOfCoords) => {
 };
 
 module.exports = {
