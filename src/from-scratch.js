@@ -3,10 +3,10 @@ const addToFrontOrBack = (arr, value, isFront) => {
 };
 // console.log(addToFrontOrBack([1,2,3,4,5],6,true));
 
-
-
 const reverseString = (string) => {
+  return string.split('').reverse('').join('');
 };
+console.log(reverseString("Taifinkaba"));
 
 const newArrayFullOf = (value, numOfValue) => {
 };
