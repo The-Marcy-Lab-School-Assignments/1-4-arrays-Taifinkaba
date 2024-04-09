@@ -6,7 +6,7 @@ const addToFrontOrBack = (arr, value, isFront) => {
 const reverseString = (string) => {
   return string.split('').reverse('').join('');
 };
-console.log(reverseString("Taifinkaba"));
+//  console.log(reverseString("Taifinkaba"));
 
 const newArrayFullOf = (value, numOfValue) => {
 };

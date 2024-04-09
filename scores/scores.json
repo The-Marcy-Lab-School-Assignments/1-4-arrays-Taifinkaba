@@ -13,6 +13,10 @@
       "FrScTe6": 0,
       "FrScTe7": 0,
       "FrScTe8": 0
+    },
+    "Modify Tests": {
+      "MoTe1": 0,
+      "MoTe2": 0
     }
   },
   "idToTestNameHash": {
@@ -25,7 +29,9 @@
     "FrScTe5": "From Scratch Tests deleteFromMiddle - MUTATION - deletes value from the middle of an array",
     "FrScTe6": "From Scratch Tests isRightIndex - PURE - returns true if the index is the right index",
     "FrScTe7": "From Scratch Tests roundAllNumsDown - PURE - rounds all numbers down",
-    "FrScTe8": "From Scratch Tests getAllYCoordinates - PURE - returns an array of all y coordinates"
+    "FrScTe8": "From Scratch Tests getAllYCoordinates - PURE - returns an array of all y coordinates",
+    "MoTe1": "Modify Tests uppercaseAll - No matter how many words passed in, they are uppercased",
+    "MoTe2": "Modify Tests destructureCoordinates - Destructures the coordinates array into x and y variables"
   },
   "testNameToIdHash": {
     "Debug Tests clearAll - removes all elements from an array as a mutation": "DeTe1",
@@ -37,11 +43,14 @@
     "From Scratch Tests deleteFromMiddle - MUTATION - deletes value from the middle of an array": "FrScTe5",
     "From Scratch Tests isRightIndex - PURE - returns true if the index is the right index": "FrScTe6",
     "From Scratch Tests roundAllNumsDown - PURE - rounds all numbers down": "FrScTe7",
-    "From Scratch Tests getAllYCoordinates - PURE - returns an array of all y coordinates": "FrScTe8"
+    "From Scratch Tests getAllYCoordinates - PURE - returns an array of all y coordinates": "FrScTe8",
+    "Modify Tests uppercaseAll - No matter how many words passed in, they are uppercased": "MoTe1",
+    "Modify Tests destructureCoordinates - Destructures the coordinates array into x and y variables": "MoTe2"
   },
   "humanReadable": {
     "Debug Tests": "0/2",
-    "finalTestScore": "FINAL SCORE: 2/10",
-    "From Scratch Tests": "2/8"
+    "finalTestScore": "FINAL SCORE: 2/12",
+    "From Scratch Tests": "2/8",
+    "Modify Tests": "0/2"
   }
 }
