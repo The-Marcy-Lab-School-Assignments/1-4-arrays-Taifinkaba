@@ -6,9 +6,13 @@ const addToFrontOrBack = (arr, value, isFront) => {
 const reverseString = (string) => {
   return string.split('').reverse('').join('');
 };
-//  console.log(reverseString("Taifinkaba"));
+//  console.log(reverseString("Tai"));
 
 const newArrayFullOf = (value, numOfValue) => {
+  const updatedArr =  [];
+  for(let i = 0; i < numOfValue; i++){
+    
+  }
 };
 
 const insertIntoMiddle = (arr, value) => {
