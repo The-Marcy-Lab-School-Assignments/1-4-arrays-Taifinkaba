@@ -39,7 +39,12 @@ const isRightIndex = (arr, value, index) => {
     }
 };
 
-const roundAllNumsDown = (arr,) => {
+const roundAllNumsDown = (arr) => {
+  let down = [];
+  for(let i = 0; i < arr.length; i++){
+    down.push(Math.floor(arr[i]));
+  }
+  return down;
 };
 
 const getAllYCoordinates = (arrOfCoords) => {
