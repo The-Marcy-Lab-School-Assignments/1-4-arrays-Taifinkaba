@@ -1,5 +1,5 @@
 const addToFrontOrBack = (arr, value, isFront) => {
-  isFront === true ? arr.unshift(value)  : arr.push(value);
+  isFront === true ? arr.unshift(value) : arr.push(value);
 };
 // console.log(addToFrontOrBack([1,2,3,4,5],6,true));
 
@@ -19,7 +19,11 @@ const newArrayFullOf = (value, numOfValue) => {
 // console.log(newArrayFullOf(1,5));
 
 const insertIntoMiddle = (arr, value) => {
+  const middle = Math.floor(arr.length / 2);
+  arr.splice(middle, 0, value);
+  return arr;
 };
+// console.log(insertIntoMiddle([1,2,3],"Tai"));
 
 const deleteFromMiddle = (arr) => {
 };
