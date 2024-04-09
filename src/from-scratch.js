@@ -11,9 +11,12 @@ const reverseString = (string) => {
 const newArrayFullOf = (value, numOfValue) => {
   const updatedArr =  [];
   for(let i = 0; i < numOfValue; i++){
-    
+    updatedArr.push(value);
+
   }
+  return updatedArr;
 };
+// console.log(newArrayFullOf(1,5));
 
 const insertIntoMiddle = (arr, value) => {
 };
