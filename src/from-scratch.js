@@ -30,7 +30,7 @@ const deleteFromMiddle = (arr) => {
   arr.splice(middle, 1);
   // return arr;
 };
-console.log(deleteFromMiddle(1,2,3));
+// console.log(deleteFromMiddle(1,2,3));
 
 const isRightIndex = (arr, value, index) => {
 };
