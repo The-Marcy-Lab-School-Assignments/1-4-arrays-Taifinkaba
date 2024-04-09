@@ -21,7 +21,7 @@ const newArrayFullOf = (value, numOfValue) => {
 const insertIntoMiddle = (arr, value) => {
   const middle = Math.floor(arr.length / 2);
   arr.splice(middle, 0, value);
-  return arr;
+  // return arr;
 };
 // console.log(insertIntoMiddle([1,2,3],"Tai"));
 
