@@ -48,6 +48,8 @@ const roundAllNumsDown = (arr) => {
 };
 
 const getAllYCoordinates = (arrOfCoords) => {
+  const newArr = arrOfCoords.map((y) => y[1]);
+  return newArr;
 };
 
 module.exports = {
