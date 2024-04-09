@@ -12,7 +12,6 @@ const newArrayFullOf = (value, numOfValue) => {
   const updatedArr =  [];
   for(let i = 0; i < numOfValue; i++){
     updatedArr.push(value);
-
   }
   return updatedArr;
 };
@@ -30,9 +29,14 @@ const deleteFromMiddle = (arr) => {
   arr.splice(middle, 1);
   // return arr;
 };
-// console.log(deleteFromMiddle(1,2,3));
+// console.log(deleteFromMiddle([1,2,3]));
 
 const isRightIndex = (arr, value, index) => {
+    if(index < 0 || index >= arr.length){
+      return false;
+    }else{
+      return arr[index] === value;
+    }
 };
 
 const roundAllNumsDown = (arr,) => {
