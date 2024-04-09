@@ -1,7 +1,7 @@
 const addToFrontOrBack = (arr, value, isFront) => {
   isFront === true ? arr.unshift(value) : arr.push(value);
 };
-// console.log(addToFrontOrBack([1,2,3,4,5],6,true));
+// console.log(addToFrontOrBack([1,2,3,4,5],6));
 
 const reverseString = (string) => {
   return string.split('').reverse('').join('');
