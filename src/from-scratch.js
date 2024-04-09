@@ -26,7 +26,11 @@ const insertIntoMiddle = (arr, value) => {
 // console.log(insertIntoMiddle([1,2,3],"Tai"));
 
 const deleteFromMiddle = (arr) => {
+  const middle = Math.floor(arr.length / 2);
+  arr.splice(middle, 1);
+  // return arr;
 };
+console.log(deleteFromMiddle(1,2,3));
 
 const isRightIndex = (arr, value, index) => {
 };
