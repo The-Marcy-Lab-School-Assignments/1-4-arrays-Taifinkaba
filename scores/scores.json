@@ -1,7 +1,7 @@
 {
   "testScores": {
     "Debug Tests": {
-      "DeTe1": 0,
+      "DeTe1": 1,
       "DeTe2": 0
     },
     "From Scratch Tests": {
@@ -48,8 +48,8 @@
     "Modify Tests destructureCoordinates - Destructures the coordinates array into x and y variables": "MoTe2"
   },
   "humanReadable": {
-    "Debug Tests": "0/2",
-    "finalTestScore": "FINAL SCORE: 10/12",
+    "Debug Tests": "1/2",
+    "finalTestScore": "FINAL SCORE: 11/12",
     "From Scratch Tests": "8/8",
     "Modify Tests": "2/2"
   }
