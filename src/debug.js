@@ -6,7 +6,7 @@ const clearArr = (arr) => {
 };
 
 const getFirstItem = (array) => {
-  return array.shift();
+  return array[0];
 };
 
 module.exports = {
