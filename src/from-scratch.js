@@ -1,3 +1,5 @@
+/** FEEDBACK: Because conditional statement naturally will evaluate truthy or falsy, you do not need to set it equal to true! */
+
 const addToFrontOrBack = (arr, value, isFront) => {
   isFront === true ? arr.unshift(value) : arr.push(value);
 };
@@ -46,7 +48,7 @@ const roundAllNumsDown = (arr) => {
   }
   return down;
 };
-
+/** FEEDBACK: Great use of map! */
 const getAllYCoordinates = (arrOfCoords) => {
   const newArr = arrOfCoords.map((y) => y[1]);
   return newArr;
