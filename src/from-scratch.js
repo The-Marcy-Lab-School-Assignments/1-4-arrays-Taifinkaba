@@ -1,14 +1,12 @@
 /** FEEDBACK: Because conditional statement naturally will evaluate truthy or falsy, you do not need to set it equal to true! */
 
 const addToFrontOrBack = (arr, value, isFront) => {
-  isFront === true ? arr.unshift(value) : arr.push(value);
+  isFront ? arr.unshift(value) : arr.push(value);
 };
-// console.log(addToFrontOrBack([1,2,3,4,5],6));
 
 const reverseString = (string) => {
   return string.split('').reverse('').join('');
 };
-//  console.log(reverseString("Tai"));
 
 const newArrayFullOf = (value, numOfValue) => {
   const updatedArr =  [];
@@ -17,21 +15,16 @@ const newArrayFullOf = (value, numOfValue) => {
   }
   return updatedArr;
 };
-// console.log(newArrayFullOf(1,5));
 
 const insertIntoMiddle = (arr, value) => {
   const middle = Math.floor(arr.length / 2);
   arr.splice(middle, 0, value);
-  // return arr;
 };
-// console.log(insertIntoMiddle([1,2,3],"Tai"));
 
 const deleteFromMiddle = (arr) => {
   const middle = Math.floor(arr.length / 2);
   arr.splice(middle, 1);
-  // return arr;
 };
-// console.log(deleteFromMiddle([1,2,3]));
 
 const isRightIndex = (arr, value, index) => {
     if(index < 0 || index >= arr.length){
